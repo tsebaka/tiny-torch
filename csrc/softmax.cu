@@ -6,7 +6,7 @@
 
 const int N = 10;           
 const int threadsPerBlock = 4;
-const int blocksPerGrid    = 4;
+const int blocksPerGrid = 4;
 
 
 __global__ void sum_exp_kernel(const float* outputs, float* logits, int n) 
