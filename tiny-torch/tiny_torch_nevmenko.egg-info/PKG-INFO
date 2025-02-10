@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tiny-torch-nevmenko
+Version: 0.1.0
+Summary: Tiny Torch - Custom CUDA Extensions
+Author: Your Name
+Author-email: your_email@example.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch
