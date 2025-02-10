@@ -22,7 +22,6 @@ __global__ void sum_exp_kernel(const float* outputs, float* logits, int n)
     cache[cacheIndex] = temp_sum;
     __syncthreads();
 
-    // Редукция суммы в пределах блока
     for (int i = blockDim.x / 2; i > 0; i /= 2) {
         if (cacheIndex < i) {
             cache[cacheIndex] += cache[cacheIndex + i];
