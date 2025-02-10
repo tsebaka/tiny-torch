@@ -1,8 +1,17 @@
 # tiny-torch
 
 ## Install from PyPi
-```
+```sh
 !pip install tiny-torch-nevmenko
+```
+## Usage
+```python
+import torch
+import tiny_torch.functional as F
+
+x = torch.tensor([-1.0, 0.0, 1.0], device="cuda")
+print(F.relu(x))
+>>>tensor([0., 0., 1.], device='cuda:0')
 ```
 
 
