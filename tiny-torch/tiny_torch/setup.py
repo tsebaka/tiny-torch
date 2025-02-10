@@ -4,8 +4,8 @@ from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 setup(
     name="tiny-torch-nevmenko",
     version="0.1.0",
-    author="Your Name",
-    author_email="your_email@example.com",
+    author="-",
+    author_email="-",
     description="Tiny Torch - Custom CUDA Extensions",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
