@@ -2,7 +2,7 @@
 ахуеете, работает так же быстро как у торча (а иногда даже быстрее), однако код понятный
 ## Install from PyPi
 ```sh
-!pip install tiny-torch-nevmenko
+pip install tiny-torch-nevmenko
 ```
 ## Usage
 ```python
