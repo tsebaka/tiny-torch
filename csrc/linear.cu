@@ -1,6 +1,6 @@
 #include <cuda_runtime.h>
 
-_global__ void visualizeGridThreads(matrix1, matrix2, mat_mul, N) {
+_global__ void linear_cuda(matrix1, matrix2, mat_mul, N) {
 
     int col = blockIdx.x * blockDim.x + threadIdx.x;
     int row = blockIdx.y * blockDim.y + threadIdx.y;
